@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "kmaster"} 
+    agent any
     environment {
     DOCKERHUB_CREDENTIALS = credentials('subodhdere-dockerhub')
     }
